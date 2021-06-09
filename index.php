@@ -38,33 +38,38 @@ while($x<=10){//la plus simple des boucle, éxécute un bloc de code tant qu'une
     }
     echo "<h3 style='color:red;'>exercice 4: </h3> <br>";
       function oneHundred(){
-          $z="";
-    for ($b=1;$b<=100;$b++){
-        if ($z < 100){
-         $z= $b+15;
-          echo "ma variable est = ".$b." je lui rajoute '15' donc maintenant ma variable est =" .$z."<br>";
+        
+ for ($z=1;$z<=100;$z++){
+        
+        if ($z<100){
+            $z=$z+14;
+          
             
-        }else {
-             return  "on a atteint 100";
+              echo "ma varibale est in férieur à 100 je lui rajoute 15 maintenant ma varibale =  <br>";
+              
+              echo  ($z+1)."<br>" ;
+        }else{
+            echo "ma variable est supérieur à 100";
+            echo ($z+1);
         }
         
     }
+ 
 };
+          
+             
+
     echo oneHundred();
-
     echo "<h3 style='color:red;'>exercice 5: </h3> <br>";
-    function TwoHundred(){
-       $r="";
-        for ($l=200;$l>=0;$l--){
-            if ($r != 0){
-              $r= $l-12;
-                echo "ma variable est = ".$l." je lui soustrait '12' donc maintenant ma variable est =" .$r."<br>";
-            }else{
-                return "on a atteint 0";
-            }
-        }
+    $j=200;
+   
+    while($j>=0){
+        $j=$j-12;
+        echo"ma variable est supérrieur à 0 je lui soustrait 12, maintenant ma variable est = ". $j."<br>";
+        $j-2;
     }
-    echo TwoHundred();
-    
 
-?>
+    ?>
+  
+
+
