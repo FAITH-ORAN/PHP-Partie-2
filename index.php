@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
 <?php
 /*Faiza Berrichi
 date:08/06/2021
@@ -57,8 +70,6 @@ while($x<=10){//la plus simple des boucle, éxécute un bloc de code tant qu'une
  
 };
           
-             
-
     echo oneHundred();
     echo "<h3 style='color:red;'>exercice 5: </h3> <br>";
     $j=200;
@@ -68,8 +79,55 @@ while($x<=10){//la plus simple des boucle, éxécute un bloc de code tant qu'une
         echo"ma variable est supérrieur à 0 je lui soustrait 12, maintenant ma variable est = ". $j."<br>";
         $j-2;
     }
-
+    echo "<h1>Bonus</h1>";
+   
     ?>
-  
+    <?php
+ 
+   $month= array("janvier","février","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","decembre");
+    ?>
+     <select name="month" id="month-select">
+    <option value="">--Please choose your month--</option>
+    <option value=""><?php echo $month[0]
+
+    ?></option>
+    <option value=""><?php echo $month[1]
+
+?></option>
+    <option value=""><?php echo $month[2]
+
+?></option>
+    <option value=""><?php echo $month[3]
+
+?></option>
+    <option value=""><?php echo $month[4]
+
+?></option>
+    <option value=""><?php echo $month[5]
+
+?></option>
+
+<option value=""><?php echo $month[6]
+
+?></option>
+<option value=""><?php echo $month[7]
+
+?></option>
+<option value=""><?php echo $month[8]
+
+?></option>
+<option value=""><?php echo $month[9]
+
+?></option>
+<option value=""><?php echo $month[10]
+
+?></option>
+<option value=""><?php echo $month[11]
+
+?></option>
+</select>
+
+  </body>
+</html>
 
 
